@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: roboto;
+    src: url(./text/Roboto-Black.ttf);
+}
+
+body {
+ font-family: roboto;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #1F2937;
+   
+    
+}
+
+.header a {
+    float: left;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+   
+    
+}
+
+.header-right {
+    
+    margin: 0 auto;
+    float: right;
+    font-family: roboto;
+    
+    
+ 
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    padding: 0 auto;
+    margin-bottom: -15px;
+}
+
+/** First Container**/
+
+.container {
+
+    display: flex;
+    background: #1F2937;
+}
+
+.container h1 {
+
+ font-size: 48px;
+ font-weight: bolder;
+ color: #f9faf8
+}
+
+.container h3 {
+    
+}
